@@ -8,5 +8,14 @@ class Person {
         console.log(`Name: ${this.name}, Age: ${this.age}`);
     }
 }
-const p1 = new Person("Minh", 21);
-p1.display();
+class Student extends Person {
+    constructor(name, age, grade) {
+        super(name, age);
+        this.grade = grade;
+    }
+    introduce() {
+        console.log(`Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`);
+    }
+}
+const s1 = new Student("Minh", 21, "U");
+s1.introduce();
