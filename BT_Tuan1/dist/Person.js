@@ -4,9 +4,9 @@ class Person {
         this.name = name;
         this.age = age;
     }
-    display(){
+    display() {
         console.log(`Name: ${this.name}, Age: ${this.age}`);
     }
 }
-const p1 = new Person("Minh",21);
+const p1 = new Person("Minh", 21);
 p1.display();

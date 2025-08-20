@@ -7,6 +7,9 @@ class Person{
     this.age = age;
   }
   display(): void {
-          console.log(`Name: ${this.name}, Age: ${this.age}`)
+          console.log(`Name: ${this.name}, Age: ${this.age}`);
       }
+  
 }
+const p1 = new Person("Minh",21);
+p1.display();
