@@ -8,6 +8,6 @@
         "rootDir": "./src" /* Thư mục gốc chứa tệp TypeScript */,
         "skipLibCheck": true /* Bỏ qua kiểm tra các tệp khai báo thư viện */
     },
-    "include": ["src/**/*", "dist/User.js"],
+    "include": ["src/**/*", "dist/User.js", "dist/Animal.js"],
     "exclude": ["node_modules"]
 }
