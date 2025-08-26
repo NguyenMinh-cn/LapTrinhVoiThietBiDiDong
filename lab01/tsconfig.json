@@ -12,7 +12,8 @@
         "src/**/*",
         "dist/User.js",
         "dist/Animal.js",
-        "dist/Account.js"
+        "dist/Account.js",
+        "dist/Shape.js"
     ],
     "exclude": ["node_modules"]
 }
