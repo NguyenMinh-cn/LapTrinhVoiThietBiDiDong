@@ -1,4 +1,4 @@
-class Book {
+export class Book {
     public title: string;
     public author: string;
     public year: number;
