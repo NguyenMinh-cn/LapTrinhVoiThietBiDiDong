@@ -1,35 +1,35 @@
 // 15.Call multiple async functions sequentially using await.
 async function task1(): Promise<string> {
-  return new Promise(resolve => {
-    setTimeout(() => resolve("task1"), 1000);
-  });
+    return new Promise((resolve) => {
+        setTimeout(() => resolve('task1'), 1000);
+    });
 }
 
 async function task2(): Promise<string> {
-  return new Promise(resolve => {
-    setTimeout(() => resolve("task2"), 3000);
-  });
+    return new Promise((resolve) => {
+        setTimeout(() => resolve('task2'), 3000);
+    });
 }
 
 async function task3(): Promise<string> {
-  return new Promise(resolve => {
-    setTimeout(() => resolve("task3"), 5000);
-  });
+    return new Promise((resolve) => {
+        setTimeout(() => resolve('task3'), 5000);
+    });
 }
 
 async function run() {
-  console.time("demo");
+    console.time('demo');
 
-  const t1 = await task1();
-  console.log(t1);
+    const t1 = await task1();
+    console.log(t1);
 
-  const t2 = await task2(); 
-  console.log(t2);
+    const t2 = await task2();
+    console.log(t2);
 
-  const t3 = await task3(); 
-  console.log(t3);
+    const t3 = await task3();
+    console.log(t3);
 
-  console.timeEnd("demo");
+    console.timeEnd('demo');
 }
 
 run();
