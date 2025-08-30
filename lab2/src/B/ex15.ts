@@ -1,17 +1,17 @@
 // 15.Call multiple async functions sequentially using await.
-async function task1(): Promise<string> {
+export async function task1(): Promise<string> {
     return new Promise((resolve) => {
         setTimeout(() => resolve('task1'), 1000);
     });
 }
 
-async function task2(): Promise<string> {
+export async function task2(): Promise<string> {
     return new Promise((resolve) => {
         setTimeout(() => resolve('task2'), 3000);
     });
 }
 
-async function task3(): Promise<string> {
+export async function task3(): Promise<string> {
     return new Promise((resolve) => {
         setTimeout(() => resolve('task3'), 5000);
     });
@@ -31,5 +31,3 @@ async function run() {
 
     console.timeEnd('demo');
 }
-
-run();
