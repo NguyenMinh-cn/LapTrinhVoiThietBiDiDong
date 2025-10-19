@@ -3,7 +3,6 @@ import { Image } from 'expo-image';
 
 type Props = {
   imgSource: ImageSourcePropType;
-  // cho phép truyền string (uri) hoặc object ImageSourcePropType
   selectedImage?: string | ImageSourcePropType;
 };
 
