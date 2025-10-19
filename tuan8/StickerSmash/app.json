@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "StickerSmash",
+    "slug": "StickerSmash",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "stickersmash",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.nguyenminhcn.StickerSmash"
+    },
+    "web": {
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "11657640-0fcb-4a27-9b00-b26ae2cd9efc"
+      }
+    },
+    "owner": "nguyenminh-cn"
+  }
+}
