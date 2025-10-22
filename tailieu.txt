@@ -5,3 +5,4 @@ link nộp bài
 https://docs.google.com/spreadsheets/d/1lz3umpmc77VupY6RlD8YEcyD2gA40A1TEXb8RN13sl8/edit?usp=sharing
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
